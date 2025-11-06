@@ -1,0 +1,53 @@
+body {
+    background: linear-gradient(135deg, rgb(40,119,167), rgb(178,235,242), rgb(91,230,188), rgb(24,50,72));
+    color: white;
+}
+
+.logo {
+    height: 320px;
+    width: 350px;
+    margin-top: 5%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+@font-face {
+    font-family: shrikland;
+    src: url(./assets/Shrikhand/Shrikhand-Regular.ttf);
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 55px;
+    font-family: shrikland;
+    font-weight: 50;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    font-family: shrikland;
+    margin-bottom: 30px;
+    font-size: 35px;
+    font-weight: 50;
+}
+
+.info > p {
+    text-align: center;
+    font-family: shrikland;
+    line-height: 2.5;
+    font-size: 20px;
+    font-weight: 50;
+}
+
+@media (max-width: 680px) {
+    h2 {
+        text-align: center;
+    }
+}
+
+
