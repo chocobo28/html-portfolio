@@ -1,0 +1,58 @@
+body {
+    background-image: url(./assets/water.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    backdrop-filter: blur(50%)
+}
+
+.logo {
+    height: 420px;
+    width: 450px;
+    margin-top: 5%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 100px;
+    margin-bottom: 55px;
+    font-weight: 200;
+    text-shadow: 0px 0px 5px black;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 35px;
+    font-weight: 200;
+    text-shadow: 0px 0px 5px black;
+}
+
+.info > p {
+    text-align: center;
+    line-height: 2.5;
+    font-size: 20px;
+    font-weight: 200;
+    text-shadow: 0px 0px 5px black;
+}
+
+footer {
+    text-align: right;
+    text-shadow: 0px 0px 5px black;
+}
+
+@media (max-width: 800px) {
+    .gradient {
+        text-align: center;
+        justify-content: center;
+    }
+}
+
+
